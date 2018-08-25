@@ -8,3 +8,8 @@ https://web.archive.org/web/.*?http://www.uidaho.edu/special-collections/ta_st.c
 
 /web/20150915234927/http://webpages.uidaho.edu/special-collections/pics/eastla.jpg
 /web/.*?/pics/
+
+https://web.archive.org/.*?/mailto:tabraham@uidaho.edu
+
+https://web.archive.org/web/20100614232730/http://www.uidaho.edu/special-collections/ta.papers.htm
+https://web.archive.org.*?ta.papers.htm
