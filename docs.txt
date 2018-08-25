@@ -5,3 +5,6 @@ t3 = re.compile('</html>[\s\S\n]*?-->[\s\S\n]*?-->', re.DOTALL)
 
 https://web.archive.org/web/20070618034210cs_/http://www.uidaho.edu/special-collections/ta_st.css
 https://web.archive.org/web/.*?http://www.uidaho.edu/special-collections/ta_st.css
+
+/web/20150915234927/http://webpages.uidaho.edu/special-collections/pics/eastla.jpg
+/web/.*?/pics/
