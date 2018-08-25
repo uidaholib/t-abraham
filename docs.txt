@@ -1,3 +1,7 @@
 t = re.compile('<script[\s\S\n]*?Include -->', re.DOTALL)
 t2 = re.compile('<!-- BEGIN WAYBACK[\s\S\n]*?END WAYBACK TOOLBAR INSERT -->', re.DOTALL)
 t3 = re.compile('</html>[\s\S\n]*?-->[\s\S\n]*?-->', re.DOTALL)
+
+
+https://web.archive.org/web/20070618034210cs_/http://www.uidaho.edu/special-collections/ta_st.css
+https://web.archive.org/web/.*?http://www.uidaho.edu/special-collections/ta_st.css
