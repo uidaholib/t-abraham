@@ -1,0 +1,3 @@
+t = re.compile('<script[\s\S\n]*?Include -->', re.DOTALL)
+t2 = re.compile('<!-- BEGIN WAYBACK[\s\S\n]*?END WAYBACK TOOLBAR INSERT -->', re.DOTALL)
+t3 = re.compile('</html>[\s\S\n]*?-->[\s\S\n]*?-->', re.DOTALL)
