@@ -7,3 +7,5 @@ https://web.archive.org/web/20140117015933/http://www.uiweb.uidaho.edu/special-c
 https://web.archive.org/web/20140117015933/http://www.uidaho.edu/special-collections/papers/outreach.htm
 
 http://www.uiweb.uidaho.edu/special-collections/Other.Repositories.html
+
+http://webpages.uidaho.edu/special-collections/
