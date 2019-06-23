@@ -2,10 +2,26 @@
 
 Web materials from UIdaho Special Collections, removed from university servers, recovered from archive.org 2018-08-24.
 
-https://web.archive.org/web/20140117015933/http://www.uiweb.uidaho.edu/special-collections/ta.papers.htm
+Available at: <https://www.lib.uidaho.edu/special-collections/t-abraham/>
 
-https://web.archive.org/web/20140117015933/http://www.uidaho.edu/special-collections/papers/outreach.htm
+Archive URLs:
 
-http://www.uiweb.uidaho.edu/special-collections/Other.Repositories.html
+- https://web.archive.org/web/20140117015933/http://www.uiweb.uidaho.edu/special-collections/ta.papers.htm
+- https://web.archive.org/web/20140117015933/http://www.uidaho.edu/special-collections/papers/outreach.htm
 
-http://webpages.uidaho.edu/special-collections/
+Original URLs:
+
+- http://www.uiweb.uidaho.edu/special-collections/Other.Repositories.html
+- http://webpages.uidaho.edu/special-collections/
+
+## Added to library main web
+
+Content added to `/special-collections/t-abraham/`
+and images to `/media/spec/t-abraham/`. 
+
+In the main web Jekyll project, each page needs YML and permalink var. 
+Added via:
+
+`for f in *.htm; do sed -i "1i---\ntitle: $f\n# layout: none\nsection: special collections\npermalink: /special-collections/t-abraham/$f\n---" "$f"; done`
+
+Links to images `src="pics/` and `href="pics/` now point to `/media/spec/t-abraham/`.
