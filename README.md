@@ -16,6 +16,9 @@ Original URLs:
 
 ## Added to library main web
 
+Contents of this repo were processed and added to the main web repository. 
+Notes below detail the prep (but are not in this repo):
+
 Content added to `/special-collections/t-abraham/`
 and images to `/media/spec/t-abraham/`. 
 
